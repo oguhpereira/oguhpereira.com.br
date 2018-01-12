@@ -1,0 +1,56 @@
+.barra-lateral{
+    background-color: #1E1E1E;
+    padding: 30px;
+    color: white;
+    height: 100%;
+    position: fixed;
+
+}
+.barra-lateral .foto-perfil{
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    border: 1px solid white;
+}
+.barra-lateral .title{
+    margin-top: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.barra-lateral .menu-links{
+    padding: 0px;
+}
+.barra-lateral .menu-links li{
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+.barra-lateral .social .social__link{
+    margin-left: 5px;
+}
+.conteudo{
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-top:20px;
+}
+.conteudo .jumbotron{
+    
+    background: #FFFFFF;
+}
+.conteudo .jumbotron p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+}
+.conteudo .jumbotron p strong{
+    color: #252526;
+}
+.github-corner{
+    color: #F0F0F0;
+    
+}
+.conteudo .menu-links{
+    margin-top: 20px;
+}
