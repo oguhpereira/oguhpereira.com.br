@@ -1,56 +1,184 @@
-.barra-lateral{
-    background-color: #1E1E1E;
-    padding: 30px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1.5;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.bar{
+    background-color: #101010;
+    top: 0;
+    padding: 5px;
     color: white;
-    height: 100%;
+    height: 60px;
+    width: 100%;
     position: fixed;
+    display: inline-flex;
+    justify-content: space-between;
 
 }
-.barra-lateral .foto-perfil{
-    border-radius: 50%;
-    width: 10em;
-    height: 10em;
-    border: 1px solid white;
-}
-.barra-lateral .title{
-    margin-top: 5px;
-    font-size: 1.5em;
+
+
+.col-title {
+    display: inline-block;
     text-align: center;
 }
-.barra-lateral .menu-links{
-    padding: 0px;
+
+.col-title .title{
+    font-size: 2em;
+    color: rgba(255,255,255,0.75);
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-left: 15px;
+    padding-top: 15px;
 }
-.barra-lateral .menu-links li{
-    padding: 5px;
+
+
+.col-title .title:hover { 
+    color: white;
+}
+.col-menu{
+    padding-top: 20px;
+    margin-left: -150px;
+}
+.col-menu .menu-links{
+    display: inline-flex;
+}
+
+.col-menu .menu-links li a{
+    color: rgba(255,255,255,0.75);
+    font-weight: 100;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.col-menu .menu-links li a:hover{
+    color: white;
+}
+
+.col-social{
+    font-size: 2em;
+    text-transform: uppercase;
     list-style: none;
+    text-decoration: none;
+    font-weight: 100;
+    padding-right: 25px;
+    padding-top: 15px;
+
+}
+.col-social a{
+    text-decoration: none;
+}
+.col-social svg{
+    fill: rgba(255,255,255,0.75);
+}
+.col-social svg:hover{
+    transform: rotate(9deg);
+    fill: white;
+}
+.main {
+    margin-top: 100px;
+}
+.main .container-index{
+    display: flex;
+}
+.main .col-my-picture .img{
+    width: 229px;
+    height: 230px;
+}
+.main .col-my-picture  .img:hover{
+    transition: filter 0.5s;
+    filter: contrast(120%) grayscale(100%);
+}
+.main .col-my-picture  .title{
+    font-weight: 100;
+    font-size: 2em;
     text-align: center;
+
 }
-.barra-lateral .social .social__link{
-    margin-left: 5px;
+.main .jumbotron  .title{
+    font-weight: 500;
+    font-style: italic;
+    margin-left: -230px;
+    font-size: 2em;
+    text-align: center;
+    animation: opacity-item 2s;
 }
-.conteudo{
-    margin-left: 20%;
-    margin-right: 5%;
-    margin-top:20px;
+.main .jumbotron{
+    width: 100%;
+    animation: opacity-item 1s;
 }
-.conteudo .jumbotron{
-    
-    background: #FFFFFF;
+.main .jumbotron .description{
+    text-align: center;
+    font-size: 1em;
+    animation: opacity-item 2s;
 }
-.conteudo .jumbotron p{
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 24px;
-    color: #666;
+.main .jumbotron .description .link{
+    font-weight: bold;
+    color: #101010;
+    text-decoration: none;
 }
-.conteudo .jumbotron p strong{
-    color: #252526;
+
+.main .jumbotron .item-title{
+    font-weight: bold;
+    color: #101010;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-left: 15px;
 }
-.github-corner{
-    color: #F0F0F0;
-    
+
+.main .jumbotron .item-description{
+    font-weight: 100;
+    color:  #6a737d;
+    font-size: 1em;
+    padding-left: 20px;
+   
 }
-.conteudo .menu-links{
-    margin-top: 20px;
+.main .jumbotron .item-description:hover{
+    color: #101010;
+}
+@keyframes opacity-item{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
 }
