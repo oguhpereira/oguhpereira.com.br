@@ -43,15 +43,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+header,main{
+    display: flex;
+    justify-content: space-around;
+}
 .bar{
     background-color: #101010;
     top: 0;
     padding: 12px;
     color: white;
     height: 60px;
-    width: 83.5%;
-    left: 10%;
+    width: 80%;
     position: fixed;
     display: inline-flex;
     justify-content: space-between;
@@ -118,7 +120,7 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 12px;
 }
 .main .col-my-picture .img{
     width: 150px;
@@ -178,11 +180,22 @@ table {
 .container-index{
     background-color: #fff;
     width: 80%;
-    margin-left: 10%;
     border-radius: 10px;
 }
 .salmon{
     color: #2C60D5;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #101010; 
+}
+footer p,footer a{
+    color:white;
+    text-decoration: none;
 }
 @keyframes opacity-item{
 0%{
