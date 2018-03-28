@@ -112,6 +112,22 @@ header,main{
 .col-social svg:hover{
     transform: rotate(9deg);
     fill: white;
+ 
+}
+.col-social .linkedin svg:hover{
+    fill: #00A0DC;
+    opacity: .9;
+    transition: fill .5s;
+}
+.col-social .github svg:hover{
+    fill:    #282D32;
+    opacity: .9;
+    transition: fill .5s;
+}
+.col-social .twitter svg:hover{
+    fill:  #1DA1F2;
+    opacity: .9;
+    transition: fill .5s;
 }
 .main {
     margin-top: 80px;
@@ -196,6 +212,11 @@ footer{
 footer p,footer a{
     color:white;
     text-decoration: none;
+}
+footer .love:hover{
+    color: #f00;
+    animation: opacity-item 1s;
+    animation-iteration-count: infinite;
 }
 @keyframes opacity-item{
 0%{
