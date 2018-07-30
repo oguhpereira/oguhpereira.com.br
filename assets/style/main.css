@@ -131,23 +131,23 @@ header,main{
 }
 .main {
     margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .main .container-index{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 12px;
+    margin-bottom: 10px;
 }
-.main .col-my-picture .img{
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    border:3px solid #171717;
+.main .my-picture .img{
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
 }
-.main .col-my-picture  .img:hover{
-    transition: filter 0.5s;
-    filter: contrast(120%) grayscale(100%);
-}
+
+
 .main .col-my-picture  .title{
     font-weight: 100;
     font-size: 2em;
@@ -193,11 +193,17 @@ header,main{
 .main .jumbotron .item-description:hover{
     color: #101010;
 }
-.container-index{
+.container-index {
     background-color: #fff;
     width: 80%;
     border-radius: 10px;
 }
+#about .jumbotron {
+    padding: 40px;
+}
+
+
+
 .salmon{
     color: #2C60D5;
 }
