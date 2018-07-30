@@ -201,9 +201,6 @@ header,main{
 #about .jumbotron {
     padding: 40px;
 }
-
-
-
 .salmon{
     color: #2C60D5;
 }
@@ -231,4 +228,23 @@ footer .love:hover{
 100%{
     opacity: 1;
 }
+}
+.box-project {
+    border-radius: 10px;
+    border: 1px solid rgb(209, 213, 218);
+    float: left;
+    min-height: 80px;
+    margin:2px;
+    padding: 30px;
+    width: 21%;
+}
+.box-project .title-project {
+    color: #2C60D5;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.box-project .title-project:hover {
+    text-decoration: underline;
 }
