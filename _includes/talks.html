@@ -1,0 +1,15 @@
+
+
+<div id="talks"class="container-index">
+    <div class="jumbotron">
+        <h1 class="title salmon">Talks</h1>
+        <ul class="my-talks">
+            {% for post in site.categories['talks'] %}
+            <li class="talk">
+                <a class="title-project" href="{{ post.ur }}">{{ post.title }} -  {{ post.description}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>   
+    

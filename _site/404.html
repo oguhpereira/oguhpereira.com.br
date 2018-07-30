@@ -38,7 +38,15 @@
         </div>
         <div class="col-menu">
             <ul class="menu-links">
-
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#talks">Talks</a>
+                </li>     
             </ul>
         </div>
 
@@ -67,7 +75,18 @@
 </div>
 
       </div>
-    </main><footer>
+    </main><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top - 100
+    }, 500);
+    return false;
+});
+</script>
+<footer>
     <p>Feito com <a href="http://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> e <span class="love">❤</span></p>
 </footer></body>
 

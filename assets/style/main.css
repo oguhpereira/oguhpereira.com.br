@@ -205,12 +205,13 @@ header,main{
     color: #2C60D5;
 }
 footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: #101010; 
+    margin-top: 300px;
 }
 footer p,footer a{
     color:white;
@@ -229,13 +230,16 @@ footer .love:hover{
     opacity: 1;
 }
 }
+.my-projects{
+    margin-top: 10px;
+}
 .box-project {
     border-radius: 10px;
     border: 1px solid rgb(209, 213, 218);
     float: left;
     min-height: 80px;
     margin:2px;
-    padding: 30px;
+    padding: 20px;
     width: 21%;
 }
 .box-project .title-project {
@@ -247,4 +251,16 @@ footer .love:hover{
 }
 .box-project .title-project:hover {
     text-decoration: underline;
+}
+
+
+.my-talks {
+    padding-left: 15px;
+   
+}
+.talk {
+    list-style-type: disc;
+}
+.talk a{
+    color: #282D32;
 }

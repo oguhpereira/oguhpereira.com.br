@@ -51,7 +51,15 @@
         </div>
         <div class="col-menu">
             <ul class="menu-links">
-
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#talks">Talks</a>
+                </li>     
             </ul>
         </div>
 
@@ -83,9 +91,9 @@
         </div>
    </div>   
 
-        <div id="about"class="container-index">
+        <div id="projects"class="container-index">
     <div class="jumbotron">
-        <h1 class="title salmon">Projects</h1>
+        <h1 class="title salmon">Open-Source Projects</h1>
         <ul class="my-projects">
             
             <li class="box-project">
@@ -94,8 +102,13 @@
             </li>
             
             <li class="box-project">
-                <a class="title-project" href="https://github.com/oguhpereira/GoogleMaps-Road-Accidents">Brand Color</a>
-                <p class="description-project">🎨 The brands colors in the word</p>
+                <a class="title-project" href="https://github.com/oguhpereira/statusmyorder">Status my Order</a>
+                <p class="description-project">📈 Informs the status of your order</p>
+            </li>
+            
+            <li class="box-project">
+                <a class="title-project" href="https://github.com/oguhpereira/statusmyorder">Gym Management System</a>
+                <p class="description-project">💪 Web Aplication with nodejs to Gym Management System</p>
             </li>
             
             <li class="box-project">
@@ -103,12 +116,48 @@
                 <p class="description-project">🌍 Brazil Road Accidents with GoogleMaps</p>
             </li>
             
+            <li class="box-project">
+                <a class="title-project" href="https://github.com/dracula/wordpress">Dracula for WordPress</a>
+                <p class="description-project">😱 A dark theme for WordPress</p>
+            </li>
+            
+            <li class="box-project">
+                <a class="title-project" href="https://github.com/oguhpereira/GoogleMaps-Road-Accidents">Brand Color</a>
+                <p class="description-project">🎨 The brands colors in the word</p>
+            </li>
+            
         </ul>
     </div>
 </div>   
 
+        
+
+<div id="talks"class="container-index">
+    <div class="jumbotron">
+        <h1 class="title salmon">Talks</h1>
+        <ul class="my-talks">
+            
+            <li class="talk">
+                <a class="title-project" href="https://speakerdeck.com/oguhpereira/introducao-sobre-github?slide=23">Introdução Sobre Github -  Palestra sobre Github e como utilizá-lo.(Seminario Engenharia da Computação UEMG - 2017)</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>   
+    
     </main>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top - 100
+    }, 500);
+    return false;
+});
+</script>
 <footer>
     <p>Feito com <a href="http://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> e <span class="love">❤</span></p>
 </footer>
