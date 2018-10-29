@@ -3,20 +3,20 @@
         "year": "2018",
         "projects" : [
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
+                "name" : "Spotify Theme vscode",
+                "link" : "https://marketplace.visualstudio.com/items?itemName=oguhpereira.spotify-color-theme"
             },
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
+                "name" : "Status My Order",
+                "link" : "https://github.com/oguhpereira/statusmyorder"
             },
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
+                "name" : "Brand Color",
+                "link" : "https://github.com/oguhpereira/brand-color"
             },
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
+                "name" : "Gym Management System",
+                "link" : "https://github.com/oguhpereira/Gym-Management-System"
             },
             {
                 "name" : "Spotify Theme",
@@ -29,25 +29,25 @@
         "year": "2017",
         "projects" : [
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
+                "name" : "GoogleMaps Road Accidents",
+                "link" : "https://github.com/oguhpereira/GoogleMaps-Road-Accidents"
             },
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
+                "name" : "Machine Search ORI",
+                "link" : "https://github.com/Phelipesilva/ORI"
             },
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
+                "name" : "Learn Python",
+                "link" : "https://github.com/oguhpereira/Learn-Python"
             },
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
+                "name" : "Learn C",
+                "link" : "https://github.com/oguhpereira/Learn-C"
             },
             {
-                "name" : "Spotify Theme",
-                "link" : "www.google.com.br"
-            }   
+                "name" : "Learn Java",
+                "link" : "https://github.com/oguhpereira/Learn-Java"
+            }
         ]
             
     }
