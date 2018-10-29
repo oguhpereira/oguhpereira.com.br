@@ -39,7 +39,7 @@
   padding-right: 10px;
 }
 
-#p2 .icon {
+#p2 .icon,#p3 .icon {
   top: 0px;
   left: 0px;
   height: inherit!important;
@@ -50,7 +50,7 @@
   margin-bottom: 5px;
   color: #6e767a;
 }
-.menu-projects {
+.menu-list {
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: column;
