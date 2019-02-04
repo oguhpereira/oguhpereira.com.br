@@ -10,7 +10,7 @@ const About = () =>{
                 <div className="icon"><span className="title">Gustavo Pereira</span>
                     <div className="hint">
                         Mineiro | Desenvolvedor Web a {year-2016} anos. <br/>
-                        Full-Stack na <a href="https://onlinesites.com.br/">Onlinesites Marketing Digital</a> | CO-Organizador do <a href="http://gdgdivi.github.io">GDG Divinópolis</a>.
+                        Front-End na <a href="https://jmvtechnology.com">JMV Tecnology</a> | CO-Organizador do <a href="http://gdgdivi.github.io">GDG Divinópolis</a>.
                         <br/>
                         Entre em Contato.
                         <br/>
