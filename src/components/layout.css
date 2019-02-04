@@ -187,7 +187,7 @@ ul .icon:hover {
   transition: all .5s ease-out !important;
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
-  -o-transition: all .5s ease-out;
+  -o-transition: all .2s ease-out;
 }
 
 a {
@@ -268,4 +268,9 @@ a {
   -moz-transform: translateX(0) !important;
   -o-transform: translateX(0) !important;
   transition-delay: os;
+}
+.icon-compulting {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
 }
