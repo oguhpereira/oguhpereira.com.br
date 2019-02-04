@@ -205,6 +205,9 @@ a {
 .hint {
   font-size: 16px;
 }
+.hint .title {
+  color: #181d20;
+}
 
 #p4 .hint {
   display: inherit !important;
