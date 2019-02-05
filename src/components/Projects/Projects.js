@@ -9,6 +9,7 @@ const Projects = () =>(
         <div className="page" id="p2">
             <div className="icon fa fa-keyboard-o"><span className="title"></span>
                 <div className="hint">
+                <h2 className="title">Projects</h2>
                 <img className="icon-compulting" width="120" src={icon} alt="emoji compulting"/>
                     <MenuList mlist={projectsjson}></MenuList>
                 </div>
